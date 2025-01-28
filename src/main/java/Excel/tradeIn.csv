@@ -1,0 +1,266 @@
+SNO,Brand,Model,Variant,Product Description, Price
+1,Apple,"MacBook 12"" 2016",Intel Core m3 1.1GHz 256GB,"Apple MacBook 12"" 2016 Intel Core m3 1.1GHz 256GB",$21 
+2,Apple,"MacBook 12"" 2016",Intel Core m5 1.2GHz 512GB,"Apple MacBook 12"" 2016 Intel Core m5 1.2GHz 512GB",$21 
+3,Apple,"MacBook 12"" 2016",Intel Core m7 1.3Ghz 256GB,"Apple MacBook 12"" 2016 Intel Core m7 1.3Ghz 256GB",$21 
+4,Apple,"MacBook 12"" 2016",Intel Core m7 1.3Ghz 512GB,"Apple MacBook 12"" 2016 Intel Core m7 1.3Ghz 512GB",$21 
+5,Apple,"MacBook 12"" 2017",Intel Core i5 1.3Ghz 512GB,"Apple MacBook 12"" 2017 Intel Core i5 1.3Ghz 512GB",$30 
+6,Apple,"MacBook 12"" 2017",Intel Core i7 1.4GHz 256GB,"Apple MacBook 12"" 2017 Intel Core i7 1.4GHz 256GB",$30 
+7,Apple,"MacBook 12"" 2017",Intel Core i7 1.4GHz 512GB,"Apple MacBook 12"" 2017 Intel Core i7 1.4GHz 512GB",$30 
+8,Apple,"MacBook 12"" 2017",Intel Core m3 1.2GHz 256GB,"Apple MacBook 12"" 2017 Intel Core m3 1.2GHz 256GB",$30 
+9,Apple,"MacBook Air 13"" 2017",Intel Core i5 1.8GHz 128GB,"Apple MacBook Air 13"" 2017 Intel Core i5 1.8GHz 128GB",$40 
+10,Apple,"MacBook Air 13"" 2017",Intel Core i5 1.8GHz 256GB,"Apple MacBook Air 13"" 2017 Intel Core i5 1.8GHz 256GB",$40 
+11,Apple,"MacBook Air 13"" 2017",Intel Core i5 1.8GHz 512GB,"Apple MacBook Air 13"" 2017 Intel Core i5 1.8GHz 512GB",$40 
+12,Apple,"MacBook Air 13"" 2017",Intel Core i5 2.2GHz 128GB,"Apple MacBook Air 13"" 2017 Intel Core i5 2.2GHz 128GB",$40 
+13,Apple,"MacBook Air 13"" 2017",Intel Core i5 2.2GHz 256GB,"Apple MacBook Air 13"" 2017 Intel Core i5 2.2GHz 256GB",$40 
+14,Apple,"MacBook Air 13"" 2017",Intel Core i5 2.2GHz 512GB,"Apple MacBook Air 13"" 2017 Intel Core i5 2.2GHz 512GB",$40 
+15,Apple,"MacBook Air 13"" 2018",Intel Core i5 1.6GHz 1.5TB,"Apple MacBook Air 13"" 2018 Intel Core i5 1.6GHz 1.5TB",$268 
+16,Apple,"MacBook Air 13"" 2018",Intel Core i5 1.6GHz 128GB,"Apple MacBook Air 13"" 2018 Intel Core i5 1.6GHz 128GB",$207 
+17,Apple,"MacBook Air 13"" 2018",Intel Core i5 1.6GHz 256GB,"Apple MacBook Air 13"" 2018 Intel Core i5 1.6GHz 256GB",$231 
+18,Apple,"MacBook Air 13"" 2018",Intel Core i5 1.6GHz 512GB,"Apple MacBook Air 13"" 2018 Intel Core i5 1.6GHz 512GB",$244 
+19,Apple,"MacBook Air 13"" 2019",Intel Core i5 1.6GHz 128GB,"Apple MacBook Air 13"" 2019 Intel Core i5 1.6GHz 128GB",$281 
+20,Apple,"MacBook Air 13"" 2019",Intel Core i5 1.6GHz 1TB,"Apple MacBook Air 13"" 2019 Intel Core i5 1.6GHz 1TB",$343 
+21,Apple,"MacBook Air 13"" 2019",Intel Core i5 1.6GHz 256GB,"Apple MacBook Air 13"" 2019 Intel Core i5 1.6GHz 256GB",$306 
+22,Apple,"MacBook Air 13"" 2019",Intel Core i5 1.6GHz 512GB,"Apple MacBook Air 13"" 2019 Intel Core i5 1.6GHz 512GB",$318 
+23,Apple,"MacBook Air 13"" 2020",Intel Core i3 1.1GHz 1TB,"Apple MacBook Air 13"" 2020 Intel Core i3 1.1GHz 1TB",$540 
+24,Apple,"MacBook Air 13"" 2020",Intel Core i3 1.1GHz 256GB,"Apple MacBook Air 13"" 2020 Intel Core i3 1.1GHz 256GB",$404 
+25,Apple,"MacBook Air 13"" 2020",Intel Core i3 1.1GHz 2TB,"Apple MacBook Air 13"" 2020 Intel Core i3 1.1GHz 2TB",$454 
+26,Apple,"MacBook Air 13"" 2020",Intel Core i3 1.1GHz 512GB,"Apple MacBook Air 13"" 2020 Intel Core i3 1.1GHz 512GB",$417 
+27,Apple,"MacBook Air 13"" 2020",Intel Core i5 1.1GHz 1TB,"Apple MacBook Air 13"" 2020 Intel Core i5 1.1GHz 1TB",$454 
+28,Apple,"MacBook Air 13"" 2020",Intel Core i5 1.1GHz 256GB,"Apple MacBook Air 13"" 2020 Intel Core i5 1.1GHz 256GB",$429 
+29,Apple,"MacBook Air 13"" 2020",Intel Core i5 1.1GHz 2TB,"Apple MacBook Air 13"" 2020 Intel Core i5 1.1GHz 2TB",$466 
+30,Apple,"MacBook Air 13"" 2020",Intel Core i5 1.1GHz 512GB,"Apple MacBook Air 13"" 2020 Intel Core i5 1.1GHz 512GB",$441 
+31,Apple,"MacBook Air 13"" 2020",Intel Core i7 1.2GHz 1TB,"Apple MacBook Air 13"" 2020 Intel Core i7 1.2GHz 1TB",$503 
+32,Apple,"MacBook Air 13"" 2020",Intel Core i7 1.2GHz 256GB,"Apple MacBook Air 13"" 2020 Intel Core i7 1.2GHz 256GB",$466 
+33,Apple,"MacBook Air 13"" 2020",Intel Core i7 1.2GHz 2TB,"Apple MacBook Air 13"" 2020 Intel Core i7 1.2GHz 2TB",$515 
+34,Apple,"MacBook Air 13"" 2020",Intel Core i7 1.2GHz 512GB,"Apple MacBook Air 13"" 2020 Intel Core i7 1.2GHz 512GB",$478 
+35,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 7 GPU 1TB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 7 GPU 1TB",$536 
+36,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 7 GPU 256GB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 7 GPU 256GB",$528 
+37,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 7 GPU 2TB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 7 GPU 2TB",$577 
+38,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 7 GPU 512GB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 7 GPU 512GB",$540 
+39,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 8 GPU 1TB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 8 GPU 1TB",$565 
+40,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 8 GPU 2TB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 8 GPU 2TB",$528 
+41,Apple,"MacBook Air 13"" 2020",M1 8 CPU / 8 GPU 512GB,"Apple MacBook Air 13"" 2020 Apple M1 8 CPU / 8 GPU 512GB",$577 
+42,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 10 GPU 1TB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 10 GPU 1TB",$908 
+43,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 10 GPU 2TB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 10 GPU 2TB",$952 
+44,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 10 GPU 512GB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 10 GPU 512GB",$886 
+45,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 8 GPU 1TB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 8 GPU 1TB",$853 
+46,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 8 GPU 256GB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 8 GPU 256GB",$809 
+47,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 8 GPU 2TB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 8 GPU 2TB",$896 
+48,Apple,"MacBook Air 13"" 2022",M2 8 CPU / 8 GPU 512GB,"Apple MacBook Air 13"" 2022 Apple M2 8 CPU / 8 GPU 512GB",$831 
+49,Apple,"MacBook Air 15"" 23",M2 8 CPU / 10 GPU 1TB,"Apple MacBook Air 15"" 2023 Apple M2 8 CPU / 10 GPU 1TB","$1,047 "
+50,Apple,"MacBook Air 15"" 23",M2 8 CPU / 10 GPU 256GB,"Apple MacBook Air 15"" 2023 Apple M2 8 CPU / 10 GPU 256GB",$942 
+51,Apple,"MacBook Air 15"" 23",M2 8 CPU / 10 GPU 2TB,"Apple MacBook Air 15"" 2023 Apple M2 8 CPU / 10 GPU 2TB","$1,075 "
+52,Apple,"MacBook Air 15"" 23",M2 8 CPU / 10 GPU 512GB,"Apple MacBook Air 15"" 2023 Apple M2 8 CPU / 10 GPU 512GB",$990 
+53,Apple,"MacBook Pro 13"" 2016",Intel Core i5 2.0GHz 1TB,"Apple MacBook Pro 13"" 2016 Intel Core i5 2.0GHz 1TB",$87 
+54,Apple,"MacBook Pro 13"" 2016",Intel Core i5 2.0GHz 256GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 2.0GHz 256GB",$87 
+55,Apple,"MacBook Pro 13"" 2016",Intel Core i5 2.0GHz 512GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 2.0GHz 512GB",$87 
+56,Apple,"MacBook Pro 13"" 2016",Intel Core i5 2.9GHz 1TB,"Apple MacBook Pro 13"" 2016 Intel Core i5 2.9GHz 1TB",$87 
+57,Apple,"MacBook Pro 13"" 2016",Intel Core i5 2.9GHz 256GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 2.9GHz 256GB",$87 
+58,Apple,"MacBook Pro 13"" 2016",Intel Core i5 2.9GHz 512GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 2.9GHz 512GB",$87 
+59,Apple,"MacBook Pro 13"" 2016",Intel Core i5 3.1GHz 1TB,"Apple MacBook Pro 13"" 2016 Intel Core i5 3.1GHz 1TB",$87 
+60,Apple,"MacBook Pro 13"" 2016",Intel Core i5 3.1GHz 256GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 3.1GHz 256GB",$87 
+61,Apple,"MacBook Pro 13"" 2016",Intel Core i5 3.1GHz 512GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 3.1GHz 512GB",$87 
+62,Apple,"MacBook Pro 13"" 2016",Intel Core i5 3.3GHz 1TB,"Apple MacBook Pro 13"" 2016 Intel Core i5 3.3GHz 1TB",$87 
+63,Apple,"MacBook Pro 13"" 2016",Intel Core i5 3.3GHz 256GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 3.3GHz 256GB",$87 
+64,Apple,"MacBook Pro 13"" 2016",Intel Core i5 3.3GHz 512GB,"Apple MacBook Pro 13"" 2016 Intel Core i5 3.3GHz 512GB",$87 
+65,Apple,"MacBook Pro 13"" 2016",Intel Core i7 2.4GHz 1TB,"Apple MacBook Pro 13"" 2016 Intel Core i7 2.4GHz 1TB",$101 
+66,Apple,"MacBook Pro 13"" 2016",Intel Core i7 2.4GHz 256GB,"Apple MacBook Pro 13"" 2016 Intel Core i7 2.4GHz 256GB",$101 
+67,Apple,"MacBook Pro 13"" 2016",Intel Core i7 2.4GHz 512GB,"Apple MacBook Pro 13"" 2016 Intel Core i7 2.4GHz 512GB",$101 
+68,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.3GHz 128GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.3GHz 128GB",$219 
+69,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.3GHz 1TB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.3GHz 1TB",$219 
+70,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.3GHz 256GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.3GHz 256GB",$219 
+71,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.3GHz 512GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.3GHz 512GB",$219 
+72,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.5GHz 128GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.5GHz 128GB",$219 
+73,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.5GHz 1TB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.5GHz 1TB",$219 
+74,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.5GHz 256GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.5GHz 256GB",$219 
+75,Apple,"MacBook Pro 13"" 2017",Intel Core i5 2.5GHz 512GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 2.5GHz 512GB",$219 
+76,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.1GHz 128GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.1GHz 128GB",$219 
+77,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.1GHz 1TB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.1GHz 1TB",$219 
+78,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.1GHz 256GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.1GHz 256GB",$219 
+79,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.1GHz 512GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.1GHz 512GB",$219 
+80,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.3GHz 128GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.3GHz 128GB",$219 
+81,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.3GHz 1TB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.3GHz 1TB",$219 
+82,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.3GHz 256GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.3GHz 256GB",$219 
+83,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.3GHz 512GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.3GHz 512GB",$219 
+84,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.5GHz 1TB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.5GHz 1TB",$219 
+85,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.5GHz 256GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.5GHz 256GB",$219 
+86,Apple,"MacBook Pro 13"" 2017",Intel Core i5 3.5GHz 512GB,"Apple MacBook Pro 13"" 2017 Intel Core i5 3.5GHz 512GB",$219 
+87,Apple,"MacBook Pro 13"" 2017",Intel Core i7 2.5GHz 128GB,"Apple MacBook Pro 13"" 2017 Intel Core i7 2.5GHz 128GB",$244 
+88,Apple,"MacBook Pro 13"" 2017",Intel Core i7 2.5GHz 1TB,"Apple MacBook Pro 13"" 2017 Intel Core i7 2.5GHz 1TB",$244 
+89,Apple,"MacBook Pro 13"" 2017",Intel Core i7 2.5GHz 256GB,"Apple MacBook Pro 13"" 2017 Intel Core i7 2.5GHz 256GB",$244 
+90,Apple,"MacBook Pro 13"" 2017",Intel Core i7 2.5GHz 512GB,"Apple MacBook Pro 13"" 2017 Intel Core i7 2.5GHz 512GB",$244 
+91,Apple,"MacBook Pro 13"" 2018",Intel Core i5 2.3GHz 1TB,"Apple MacBook Pro 13"" 2018 Intel Core i5 2.3GHz 1TB",$367 
+92,Apple,"MacBook Pro 13"" 2018",Intel Core i5 2.3GHz 256GB,"Apple MacBook Pro 13"" 2018 Intel Core i5 2.3GHz 256GB",$330 
+93,Apple,"MacBook Pro 13"" 2018",Intel Core i5 2.3GHz 2TB,"Apple MacBook Pro 13"" 2018 Intel Core i5 2.3GHz 2TB",$380 
+94,Apple,"MacBook Pro 13"" 2018",Intel Core i5 2.3GHz 512GB,"Apple MacBook Pro 13"" 2018 Intel Core i5 2.3GHz 512GB",$343 
+95,Apple,"MacBook Pro 13"" 2018",Intel Core i7 2.7GHz 1TB,"Apple MacBook Pro 13"" 2018 Intel Core i7 2.7GHz 1TB",$367 
+96,Apple,"MacBook Pro 13"" 2018",Intel Core i7 2.7GHz 256GB,"Apple MacBook Pro 13"" 2018 Intel Core i7 2.7GHz 256GB",$330 
+97,Apple,"MacBook Pro 13"" 2018",Intel Core i7 2.7GHz 2TB,"Apple MacBook Pro 13"" 2018 Intel Core i7 2.7GHz 2TB",$380 
+98,Apple,"MacBook Pro 13"" 2018",Intel Core i7 2.7GHz 512GB,"Apple MacBook Pro 13"" 2018 Intel Core i7 2.7GHz 512GB",$343 
+99,Apple,"MacBook Pro 13"" 2019",Intel Core i5 1.4GHz 128GB,"Apple MacBook Pro 13"" 2019 Intel Core i5 1.4GHz 128GB",$318 
+100,Apple,"MacBook Pro 13"" 2019",Intel Core i5 1.4GHz 1TB,"Apple MacBook Pro 13"" 2019 Intel Core i5 1.4GHz 1TB",$318 
+101,Apple,"MacBook Pro 13"" 2019",Intel Core i5 1.4GHz 256GB,"Apple MacBook Pro 13"" 2019 Intel Core i5 1.4GHz 256GB",$318 
+102,Apple,"MacBook Pro 13"" 2019",Intel Core i5 1.4GHz 2TB,"Apple MacBook Pro 13"" 2019 Intel Core i5 1.4GHz 2TB",$318 
+103,Apple,"MacBook Pro 13"" 2019",Intel Core i5 1.4GHz 512GB,"Apple MacBook Pro 13"" 2019 Intel Core i5 1.4GHz 512GB",$318 
+104,Apple,"MacBook Pro 13"" 2019",Intel Core i5 2.4GHz 1TB,"Apple MacBook Pro 13"" 2019 Intel Core i5 2.4GHz 1TB",$318 
+105,Apple,"MacBook Pro 13"" 2019",Intel Core i5 2.4GHz 256GB,"Apple MacBook Pro 13"" 2019 Intel Core i5 2.4GHz 256GB",$318 
+106,Apple,"MacBook Pro 13"" 2019",Intel Core i5 2.4GHz 2TB,"Apple MacBook Pro 13"" 2019 Intel Core i5 2.4GHz 2TB",$318 
+107,Apple,"MacBook Pro 13"" 2019",Intel Core i5 2.4GHz 512GB,"Apple MacBook Pro 13"" 2019 Intel Core i5 2.4GHz 512GB",$318 
+108,Apple,"MacBook Pro 13"" 2019",Intel Core i7 1.7GHz 128GB,"Apple MacBook Pro 13"" 2019 Intel Core i7 1.7GHz 128GB",$330 
+109,Apple,"MacBook Pro 13"" 2019",Intel Core i7 1.7GHz 1TB,"Apple MacBook Pro 13"" 2019 Intel Core i7 1.7GHz 1TB",$330 
+110,Apple,"MacBook Pro 13"" 2019",Intel Core i7 1.7GHz 256GB,"Apple MacBook Pro 13"" 2019 Intel Core i7 1.7GHz 256GB",$330 
+111,Apple,"MacBook Pro 13"" 2019",Intel Core i7 1.7GHz 2TB,"Apple MacBook Pro 13"" 2019 Intel Core i7 1.7GHz 2TB",$330 
+112,Apple,"MacBook Pro 13"" 2019",Intel Core i7 1.7GHz 512GB,"Apple MacBook Pro 13"" 2019 Intel Core i7 1.7GHz 512GB",$330 
+113,Apple,"MacBook Pro 13"" 2019",Intel Core i7 2.8GHz 1TB,"Apple MacBook Pro 13"" 2019 Intel Core i7 2.8GHz 1TB",$330 
+114,Apple,"MacBook Pro 13"" 2019",Intel Core i7 2.8GHz 256GB,"Apple MacBook Pro 13"" 2019 Intel Core i7 2.8GHz 256GB",$330 
+115,Apple,"MacBook Pro 13"" 2019",Intel Core i7 2.8GHz 2TB,"Apple MacBook Pro 13"" 2019 Intel Core i7 2.8GHz 2TB",$330 
+116,Apple,"MacBook Pro 13"" 2019",Intel Core i7 2.8GHz 512GB,"Apple MacBook Pro 13"" 2019 Intel Core i7 2.8GHz 512GB",$330 
+117,Apple,"MacBook Pro 13"" 2020",Intel Core i5 1.4GHz 1TB,"Apple MacBook Pro 13"" 2020 Intel Core i5 1.4GHz 1TB",$505 
+118,Apple,"MacBook Pro 13"" 2020",Intel Core i5 1.4GHz 256GB,"Apple MacBook Pro 13"" 2020 Intel Core i5 1.4GHz 256GB",$471 
+119,Apple,"MacBook Pro 13"" 2020",Intel Core i5 1.4GHz 2TB,"Apple MacBook Pro 13"" 2020 Intel Core i5 1.4GHz 2TB",$516 
+120,Apple,"MacBook Pro 13"" 2020",Intel Core i5 1.4GHz 512GB,"Apple MacBook Pro 13"" 2020 Intel Core i5 1.4GHz 512GB",$482 
+121,Apple,"MacBook Pro 13"" 2020",Intel Core i5 2.0GHz 1TB,"Apple MacBook Pro 13"" 2020 Intel Core i5 2.0GHz 1TB",$505 
+122,Apple,"MacBook Pro 13"" 2020",Intel Core i5 2.0GHz 2TB,"Apple MacBook Pro 13"" 2020 Intel Core i5 2.0GHz 2TB",$516 
+123,Apple,"MacBook Pro 13"" 2020",Intel Core i5 2.0GHz 4TB,"Apple MacBook Pro 13"" 2020 Intel Core i5 2.0GHz 4TB",$516 
+124,Apple,"MacBook Pro 13"" 2020",Intel Core i5 2.0GHz 512GB,"Apple MacBook Pro 13"" 2020 Intel Core i5 2.0GHz 512GB",$482 
+125,Apple,"MacBook Pro 13"" 2020",Intel Core i7 1.7GHz 1TB,"Apple MacBook Pro 13"" 2020 Intel Core i7 1.7GHz 1TB",$562 
+126,Apple,"MacBook Pro 13"" 2020",Intel Core i7 1.7GHz 256GB,"Apple MacBook Pro 13"" 2020 Intel Core i7 1.7GHz 256GB",$528 
+127,Apple,"MacBook Pro 13"" 2020",Intel Core i7 1.7GHz 2TB,"Apple MacBook Pro 13"" 2020 Intel Core i7 1.7GHz 2TB",$573 
+128,Apple,"MacBook Pro 13"" 2020",Intel Core i7 1.7GHz 512GB,"Apple MacBook Pro 13"" 2020 Intel Core i7 1.7GHz 512GB",$539 
+129,Apple,"MacBook Pro 13"" 2020",Intel Core i7 2.3GHz 1TB,"Apple MacBook Pro 13"" 2020 Intel Core i7 2.3GHz 1TB",$562 
+130,Apple,"MacBook Pro 13"" 2020",Intel Core i7 2.3GHz 2TB,"Apple MacBook Pro 13"" 2020 Intel Core i7 2.3GHz 2TB",$573 
+131,Apple,"MacBook Pro 13"" 2020",Intel Core i7 2.3GHz 4TB,"Apple MacBook Pro 13"" 2020 Intel Core i7 2.3GHz 4TB",$573 
+132,Apple,"MacBook Pro 13"" 2020",Intel Core i7 2.3GHz 512GB,"Apple MacBook Pro 13"" 2020 Intel Core i7 2.3GHz 512GB",$539 
+133,Apple,"MacBook Pro 13"" 2020",M1 8 CPU / 8 GPU 256GB,"Apple MacBook Pro 13"" 2020 M1 8 CPU / 8 GPU 256GB",$608 
+134,Apple,"MacBook Pro 13"" 2020",M1 8 CPU / 8 GPU 512GB,"Apple MacBook Pro 13"" 2020 M1 8 CPU / 8 GPU 512GB",$619 
+135,Apple,"MacBook Pro 13"" 2020",M2 8 CPU / 10 GPU 256GB,"Apple MacBook Pro 13"" 2020 M2 8 CPU / 10 GPU 256GB",$951 
+136,Apple,"MacBook Pro 13"" 2020",M2 8 CPU / 10 GPU 512GB,"Apple MacBook Pro 13"" 2020 M2 8 CPU / 10 GPU 512GB","$1,004 "
+137,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 24 GPU 1TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 24 GPU 1TB",$951 
+138,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 24 GPU 2TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 24 GPU 2TB","$1,004 "
+139,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 24 GPU 4TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 24 GPU 4TB","$1,057 "
+140,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 24 GPU 512GB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 24 GPU 512GB",$897 
+141,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 24 GPU 8TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 24 GPU 8TB","$1,057 "
+142,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 32 GPU 1TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 32 GPU 1TB",$951 
+143,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 32 GPU 2TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 32 GPU 2TB","$1,004 "
+144,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 32 GPU 4TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 32 GPU 4TB","$1,057 "
+145,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 32 GPU 512GB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 32 GPU 512GB",$897 
+146,Apple,"MacBook Pro 14"" 2021",M1 Max 10 CPU / 32 GPU 8TB,"Apple MacBook Pro 14"" 2021 M1 Max 10 CPU / 32 GPU 8TB","$1,057 "
+147,Apple,"MacBook Pro 14"" 2021",M1 Pro 10 CPU / 16 GPU 1TB,"Apple MacBook Pro 14"" 2021 M1 Pro 10 CPU / 16 GPU 1TB",$897 
+148,Apple,"MacBook Pro 14"" 2021",M1 Pro 10 CPU / 16 GPU 2TB,"Apple MacBook Pro 14"" 2021 M1 Pro 10 CPU / 16 GPU 2TB",$951 
+149,Apple,"MacBook Pro 14"" 2021",M1 Pro 10 CPU / 16 GPU 4TB,"Apple MacBook Pro 14"" 2021 M1 Pro 10 CPU / 16 GPU 4TB","$1,004 "
+150,Apple,"MacBook Pro 14"" 2021",M1 Pro 10 CPU / 16 GPU 8TB,"Apple MacBook Pro 14"" 2021 M1 Pro 10 CPU / 16 GPU 8TB","$1,004 "
+151,Apple,"MacBook Pro 14"" 2021",M1 Pro 8 CPU / 14 GPU 1TB,"Apple MacBook Pro 14"" 2021 M1 Pro 8 CPU / 14 GPU 1TB",$897 
+152,Apple,"MacBook Pro 14"" 2021",M1 Pro 8 CPU / 14 GPU 2TB,"Apple MacBook Pro 14"" 2021 M1 Pro 8 CPU / 14 GPU 2TB",$951 
+153,Apple,"MacBook Pro 14"" 2021",M1 Pro 8 CPU / 14 GPU 4TB,"Apple MacBook Pro 14"" 2021 M1 Pro 8 CPU / 14 GPU 4TB","$1,004 "
+154,Apple,"MacBook Pro 14"" 2021",M1 Pro 8 CPU / 14 GPU 512GB,"Apple MacBook Pro 14"" 2021 M1 Pro 8 CPU / 14 GPU 512GB",$843 
+155,Apple,"MacBook Pro 14"" 2021",M1 Pro 8 CPU / 14 GPU 8TB,"Apple MacBook Pro 14"" 2021 M1 Pro 8 CPU / 14 GPU 8TB","$1,004 "
+156,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 30 GPU 1TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 30 GPU 1TB",$980 
+157,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 30 GPU 2TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 30 GPU 2TB","$1,028 "
+158,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 30 GPU 4TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 30 GPU 4TB","$1,075 "
+159,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 30 GPU 8TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 30 GPU 8TB","$1,075 "
+160,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 38 GPU 1TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 38 GPU 1TB",$980 
+161,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 38 GPU 2TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 38 GPU 2TB","$1,028 "
+162,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 38 GPU 4TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 38 GPU 4TB","$1,075 "
+163,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 38 GPU 512GB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 38 GPU 512GB",$933 
+164,Apple,"MacBook Pro 14"" 23",M2 Max 12 CPU / 38 GPU 8TB,"Apple MacBook Pro 14"" 2023 M2 Max 12 CPU / 38 GPU 8TB","$1,075 "
+165,Apple,"MacBook Pro 14"" 23",M2 Pro 10 CPU / 16 GPU 1TB,"Apple MacBook Pro 14"" 2023 M2 Pro 10 CPU / 16 GPU 1TB",$933 
+166,Apple,"MacBook Pro 14"" 23",M2 Pro 10 CPU / 16 GPU 2TB,"Apple MacBook Pro 14"" 2023 M2 Pro 10 CPU / 16 GPU 2TB",$980 
+167,Apple,"MacBook Pro 14"" 23",M2 Pro 10 CPU / 16 GPU 4TB,"Apple MacBook Pro 14"" 2023 M2 Pro 10 CPU / 16 GPU 4TB","$1,028 "
+168,Apple,"MacBook Pro 14"" 23",M2 Pro 10 CPU / 16 GPU 512GB,"Apple MacBook Pro 14"" 2023 M2 Pro 10 CPU / 16 GPU 512GB",$885 
+169,Apple,"MacBook Pro 14"" 23",M2 Pro 10 CPU / 16 GPU 8TB,"Apple MacBook Pro 14"" 2023 M2 Pro 10 CPU / 16 GPU 8TB","$1,028 "
+170,Apple,"MacBook Pro 14"" 23",M2 Pro 12 CPU / 19 GPU 1TB,"Apple MacBook Pro 14"" 2023 M2 Pro 12 CPU / 19 GPU 1TB",$933 
+171,Apple,"MacBook Pro 14"" 23",M2 Pro 12 CPU / 19 GPU 2TB,"Apple MacBook Pro 14"" 2023 M2 Pro 12 CPU / 19 GPU 2TB",$980 
+172,Apple,"MacBook Pro 14"" 23",M2 Pro 12 CPU / 19 GPU 4TB,"Apple MacBook Pro 14"" 2023 M2 Pro 12 CPU / 19 GPU 4TB","$1,028 "
+173,Apple,"MacBook Pro 14"" 23",M2 Pro 12 CPU / 19 GPU 8TB,"Apple MacBook Pro 14"" 2023 M2 Pro 12 CPU / 19 GPU 8TB","$1,028 "
+174,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.6GHz 1TB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.6GHz 1TB",$40 
+175,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.6GHz 256GB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.6GHz 256GB",$40 
+176,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.6GHz 2TB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.6GHz 2TB",$40 
+177,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.6GHz 512GB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.6GHz 512GB",$40 
+178,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.7GHz 1TB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.7GHz 1TB",$40 
+179,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.7GHz 256GB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.7GHz 256GB",$40 
+180,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.7GHz 2TB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.7GHz 2TB",$40 
+181,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.7GHz 512GB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.7GHz 512GB",$40 
+182,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.9GHz 1TB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.9GHz 1TB",$40 
+183,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.9GHz 256GB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.9GHz 256GB",$40 
+184,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.9GHz 2TB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.9GHz 2TB",$40 
+185,Apple,"MacBook Pro 15"" 2016",Intel Core i7 2.9GHz 512GB,"Apple MacBook Pro 15"" 2016 Intel Core i7 2.9GHz 512GB",$40 
+186,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.8GHz 1TB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.8GHz 1TB",$149 
+187,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.8GHz 256GB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.8GHz 256GB",$149 
+188,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.8GHz 2TB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.8GHz 2TB",$149 
+189,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.8GHz 512GB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.8GHz 512GB",$149 
+190,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.9Ghz 1TB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.9Ghz 1TB",$149 
+191,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.9Ghz 256GB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.9Ghz 256GB",$149 
+192,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.9Ghz 2TB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.9Ghz 2TB",$149 
+193,Apple,"MacBook Pro 15"" 2017",Intel Core i7 2.9Ghz 512GB,"Apple MacBook Pro 15"" 2017 Intel Core i7 2.9Ghz 512GB",$149 
+194,Apple,"MacBook Pro 15"" 2017",Intel Core i7 3.1GHz 1TB,"Apple MacBook Pro 15"" 2017 Intel Core i7 3.1GHz 1TB",$149 
+195,Apple,"MacBook Pro 15"" 2017",Intel Core i7 3.1GHz 256GB,"Apple MacBook Pro 15"" 2017 Intel Core i7 3.1GHz 256GB",$149 
+196,Apple,"MacBook Pro 15"" 2017",Intel Core i7 3.1GHz 2TB,"Apple MacBook Pro 15"" 2017 Intel Core i7 3.1GHz 2TB",$149 
+197,Apple,"MacBook Pro 15"" 2017",Intel Core i7 3.1GHz 512GB,"Apple MacBook Pro 15"" 2017 Intel Core i7 3.1GHz 512GB",$149 
+198,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.2GHz 1TB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.2GHz 1TB",$481 
+199,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.2GHz 256GB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.2GHz 256GB",$481 
+200,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.2GHz 2TB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.2GHz 2TB",$481 
+201,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.2GHz 4TB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.2GHz 4TB",$481 
+202,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.2GHz 512GB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.2GHz 512GB",$481 
+203,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.6GHz 1TB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.6GHz 1TB",$481 
+204,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.6GHz 2TB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.6GHz 2TB",$481 
+205,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.6GHz 4TB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.6GHz 4TB",$481 
+206,Apple,"MacBook Pro 15"" 2018",Intel Core i7 2.6GHz 512GB,"Apple MacBook Pro 15"" 2018 Intel Core i7 2.6GHz 512GB",$481 
+207,Apple,"MacBook Pro 15"" 2018",Intel Core i9 2.9GHz 1TB,"Apple MacBook Pro 15"" 2018 Intel Core i9 2.9GHz 1TB",$591 
+208,Apple,"MacBook Pro 15"" 2018",Intel Core i9 2.9GHz 2TB,"Apple MacBook Pro 15"" 2018 Intel Core i9 2.9GHz 2TB",$591 
+209,Apple,"MacBook Pro 15"" 2018",Intel Core i9 2.9GHz 4TB,"Apple MacBook Pro 15"" 2018 Intel Core i9 2.9GHz 4TB",$591 
+210,Apple,"MacBook Pro 15"" 2018",Intel Core i9 2.9GHz 512GB,"Apple MacBook Pro 15"" 2018 Intel Core i9 2.9GHz 512GB",$591 
+211,Apple,"MacBook Pro 15"" 2019",Intel Core i7 2.6GHz 1TB,"Apple MacBook Pro 15"" 2019 Intel Core i7 2.6GHz 1TB",$536 
+212,Apple,"MacBook Pro 15"" 2019",Intel Core i7 2.6GHz 2TB,"Apple MacBook Pro 15"" 2019 Intel Core i7 2.6GHz 2TB",$536 
+213,Apple,"MacBook Pro 15"" 2019",Intel Core i7 2.6GHz 4TB,"Apple MacBook Pro 15"" 2019 Intel Core i7 2.6GHz 4TB",$536 
+214,Apple,"MacBook Pro 15"" 2019",Intel Core i7 2.6GHz 512GB,"Apple MacBook Pro 15"" 2019 Intel Core i7 2.6GHz 512GB",$536 
+215,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.3GHz 1TB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.3GHz 1TB",$646 
+216,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.3GHz 2TB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.3GHz 2TB",$646 
+217,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.3GHz 4TB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.3GHz 4TB",$646 
+218,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.3GHz 512GB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.3GHz 512GB",$646 
+219,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.4GHz 1TB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.4GHz 1TB",$646 
+220,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.4GHz 2TB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.4GHz 2TB",$646 
+221,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.4GHz 4TB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.4GHz 4TB",$646 
+222,Apple,"MacBook Pro 15"" 2019",Intel Core i9 2.4GHz 512GB,"Apple MacBook Pro 15"" 2019 Intel Core i9 2.4GHz 512GB",$646 
+223,Apple,"MacBook Pro 16"" 2019",Intel Core i7 2.6GHz 1TB,"Apple MacBook Pro 16"" 2019 Intel Core i7 2.6GHz 1TB",$558 
+224,Apple,"MacBook Pro 16"" 2019",Intel Core i7 2.6GHz 2TB,"Apple MacBook Pro 16"" 2019 Intel Core i7 2.6GHz 2TB",$580 
+225,Apple,"MacBook Pro 16"" 2019",Intel Core i7 2.6GHz 4TB,"Apple MacBook Pro 16"" 2019 Intel Core i7 2.6GHz 4TB",$602 
+226,Apple,"MacBook Pro 16"" 2019",Intel Core i7 2.6GHz 512GB,"Apple MacBook Pro 16"" 2019 Intel Core i7 2.6GHz 512GB",$536 
+227,Apple,"MacBook Pro 16"" 2019",Intel Core i7 2.6GHz 8TB,"Apple MacBook Pro 16"" 2019 Intel Core i7 2.6GHz 8TB",$646 
+228,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.3GHz 1TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.3GHz 1TB",$667 
+229,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.3GHz 2TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.3GHz 2TB",$689 
+230,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.3GHz 4TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.3GHz 4TB",$711 
+231,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.3GHz 512GB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.3GHz 512GB",$646 
+232,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.3GHz 8TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.3GHz 8TB",$755 
+233,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.4GHz 1TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.4GHz 1TB",$667 
+234,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.4GHz 2TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.4GHz 2TB",$689 
+235,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.4GHz 4TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.4GHz 4TB",$711 
+236,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.4GHz 512GB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.4GHz 512GB",$646 
+237,Apple,"MacBook Pro 16"" 2019",Intel Core i9 2.4GHz 8TB,"Apple MacBook Pro 16"" 2019 Intel Core i9 2.4GHz 8TB",$755 
+238,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 24 GPU 1TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 24 GPU 1TB",$823 
+239,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 24 GPU 2TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 24 GPU 2TB",$823 
+240,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 24 GPU 4TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 24 GPU 4TB",$823 
+241,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 24 GPU 512GB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 24 GPU 512GB",$771 
+242,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 24 GPU 8TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 24 GPU 8TB",$876 
+243,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 32 GPU 1TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 32 GPU 1TB",$823 
+244,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 32 GPU 2TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 32 GPU 2TB",$823 
+245,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 32 GPU 4TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 32 GPU 4TB",$823 
+246,Apple,"MacBook Pro 16"" 2021",M1 Max 10 CPU / 32 GPU 8TB,"Apple MacBook Pro 16"" 2021 M1 Max 10 CPU / 32 GPU 8TB",$876 
+247,Apple,"MacBook Pro 16"" 2021",M1 Pro 10 CPU / 16 GPU 1TB,"Apple MacBook Pro 16"" 2021 M1 Pro 10 CPU / 16 GPU 1TB",$823 
+248,Apple,"MacBook Pro 16"" 2021",M1 Pro 10 CPU / 16 GPU 2TB,"Apple MacBook Pro 16"" 2021 M1 Pro 10 CPU / 16 GPU 2TB",$823 
+249,Apple,"MacBook Pro 16"" 2021",M1 Pro 10 CPU / 16 GPU 4TB,"Apple MacBook Pro 16"" 2021 M1 Pro 10 CPU / 16 GPU 4TB",$823 
+250,Apple,"MacBook Pro 16"" 2021",M1 Pro 10 CPU / 16 GPU 512GB,"Apple MacBook Pro 16"" 2021 M1 Pro 10 CPU / 16 GPU 512GB",$771 
+251,Apple,"MacBook Pro 16"" 2021",M1 Pro 10 CPU / 16 GPU 8TB,"Apple MacBook Pro 16"" 2021 M1 Pro 10 CPU / 16 GPU 8TB",$876 
+252,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 30 GPU 1TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 30 GPU 1TB","$1,137 "
+253,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 30 GPU 2TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 30 GPU 2TB","$1,189 "
+254,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 30 GPU 4TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 30 GPU 4TB","$1,241 "
+255,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 30 GPU 512GB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 30 GPU 512GB","$1,032 "
+256,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 30 GPU 8TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 30 GPU 8TB","$1,241 "
+257,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 38 GPU 1TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 38 GPU 1TB","$1,189 "
+258,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 38 GPU 2TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 38 GPU 2TB","$1,241 "
+259,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 38 GPU 4TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 38 GPU 4TB","$1,294 "
+260,Apple,"MacBook Pro 16"" 2021",M2 Max 12 CPU / 38 GPU 8TB,"Apple MacBook Pro 16"" 2021 M2 Max 12 CPU / 38 GPU 8TB","$1,294 "
+261,Apple,"MacBook Pro 16"" 2021",M2 Pro 12 CPU / 19 GPU 1TB,"Apple MacBook Pro 16"" 2021 M2 Pro 12 CPU / 19 GPU 1TB","$1,085 "
+262,Apple,"MacBook Pro 16"" 2021",M2 Pro 12 CPU / 19 GPU 2TB,"Apple MacBook Pro 16"" 2021 M2 Pro 12 CPU / 19 GPU 2TB","$1,137 "
+263,Apple,"MacBook Pro 16"" 2021",M2 Pro 12 CPU / 19 GPU 4TB,"Apple MacBook Pro 16"" 2021 M2 Pro 12 CPU / 19 GPU 4TB","$1,189 "
+264,Apple,"MacBook Pro 16"" 2021",M2 Pro 12 CPU / 19 GPU 512GB,"Apple MacBook Pro 16"" 2021 M2 Pro 12 CPU / 19 GPU 512GB",$980 
+265,Apple,"MacBook Pro 16"" 2021",M2 Pro 12 CPU / 19 GPU 8TB,"Apple MacBook Pro 16"" 2021 M2 Pro 12 CPU / 19 GPU 8TB","$1,189 "
