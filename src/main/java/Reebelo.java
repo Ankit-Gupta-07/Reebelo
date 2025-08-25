@@ -21,14 +21,14 @@ public class Reebelo {
     public static Properties locator;
     public static List<WebElement> allLaptopName, storageList, ramList, cpuList, priceList, colorList;
     public static int totalLaptop, totalStorage, totalCpu, totalRam, totalPrice, totalColor, Sno = 0, countPrice = 0, laptopSearched = 0;
-    public static String tempStorage, tempColor, tempCpu, tempRam, tempPrice, tempLaptop, tempCondition;
+    public static String tempStorage, tempColor, tempCpu, tempRam, tempPrice, tempLaptop, tempCondition,tempProductDesc;
     public static BufferedWriter bw;
 
 
     public static void main(String[] args) throws IOException, InterruptedException {
         launchReebeloTillAppleProduct();
         bw = new BufferedWriter(new FileWriter("src/main/java/Excel/Reebelo.csv"));
-        bw.write("SNO,Product Name,Storage,Color,Processor,RAM,Condition,Price");
+        bw.write("SNO,Product Name,Product Description,Storage,Color,Processor,RAM,Condition,Price");
         bw.close();
         productLaptop();
     }
@@ -146,6 +146,7 @@ public class Reebelo {
                 int ind = op.indexOf(" ");
                 tempPrice = op.substring((ind + 1)).replace(",","");
                 tempCondition = op.substring(0, ind);
+                tempProductDesc = driver.findElement(By.xpath(locator.getProperty("productDescription"))).getText().trim();
                 countPrice++;
                 Sno++;
                 printData();
@@ -158,9 +159,9 @@ public class Reebelo {
         System.out.println(" Total Data Fetched: " + Sno);
         bw = new BufferedWriter(new FileWriter("src/main/java/Excel/Reebelo.csv", true));
         bw.newLine();
-        bw.write(Sno + "," + tempLaptop + "," + tempStorage + "," + tempColor + "," + tempCpu + "," + tempRam + "," +tempCondition+","+tempPrice);
+        bw.write(Sno + "," + tempLaptop + "," + tempProductDesc + "," + tempStorage + "," + tempColor + "," + tempCpu + "," + tempRam + "," +tempCondition+","+tempPrice);
         bw.close();
-        System.out.println("Laptop-" + tempLaptop + "\n--Storage - " + tempStorage + "--" + tempColor + "\n--CPU - " + tempCpu + "--RAM - " + tempRam + "--Price - " + countPrice + ": " + tempPrice + " " + tempCondition);
+        System.out.println("Description: "+tempProductDesc+"\nLaptop-" + tempLaptop + "\n--Storage - " + tempStorage + "--" + tempColor + "\n--CPU - " + tempCpu + "--RAM - " + tempRam + "--Price - " + countPrice + ": " + tempPrice + " " + tempCondition);
         System.out.println("========================" + "Laptop Count: " + laptopSearched + " out of: " + totalLaptop + "========================================");
 
     }
