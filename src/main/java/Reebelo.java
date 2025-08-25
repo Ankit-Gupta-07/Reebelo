@@ -4,8 +4,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -44,14 +42,12 @@ public class Reebelo {
         locator.load(fis);
         driver.get(locator.getProperty("url"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.findElements(By.xpath(locator.getProperty("WelcomePopUp"))).get(2).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
         driver.findElement(By.xpath(locator.getProperty("laptops"))).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //        Put Apple filter
         driver.findElement(By.xpath(locator.getProperty("appleFilter"))).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
     }
 
     public static void productLaptop() throws InterruptedException, IOException {
@@ -63,7 +59,6 @@ public class Reebelo {
             tempLaptop = allLaptopName.get(i).getText();
             allLaptopName.get(i).click();
             laptopSearched++;
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
             countPrice = 0;
             storage();
         }
@@ -78,19 +73,15 @@ public class Reebelo {
             storageList = driver.findElements(By.xpath(locator.getProperty("storageAvailable")));
             storageList.get(j).click();
             tempStorage = storageList.get(j).getText();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
             color();
         }
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0,0);");
         WebDriverWait exWait=new WebDriverWait(driver,Duration.ofSeconds(15));
         exWait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(locator.getProperty("laptops")))));
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.findElement(By.xpath(locator.getProperty("laptops"))).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //        Put Apple filter
         driver.findElement(By.xpath(locator.getProperty("appleFilter"))).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     public static void color() throws InterruptedException, IOException {
@@ -103,7 +94,6 @@ public class Reebelo {
             if (!strColor.contains("dashoffset")) {
                 colorList.get(n).click();
                 tempColor = driver.findElement(By.xpath(locator.getProperty("colorName"))).getText().substring(7);
-                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
                 cpu();
             }
         }
@@ -120,7 +110,6 @@ public class Reebelo {
             if (!strCpu.contains("border-dashed border-1")) {
                 cpuList.get(k).click();
                 tempCpu = cpuList.get(k).getText().replaceAll("'"," ");
-                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
                 ram();
             }
 
@@ -138,7 +127,6 @@ public class Reebelo {
             if (!strRam.contains("border-dashed border-1")) {
                 ramList.get(l).click();
                 tempRam = ramList.get(l).getText();
-                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
                 price();
             }
         }
