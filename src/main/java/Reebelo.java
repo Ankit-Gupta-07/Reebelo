@@ -4,6 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -108,7 +109,9 @@ public class Reebelo {
             cpuList = driver.findElements(By.xpath(locator.getProperty("cpuAvailable")));
             String strCpu = cpuList.get(k).getAttribute("outerHTML");
             if (!strCpu.contains("border-dashed border-1")) {
-                cpuList.get(k).click();
+                Actions act=new Actions(driver);
+                act.moveToElement(cpuList.get(k)).click().perform();
+//                cpuList.get(k).click();
                 tempCpu = cpuList.get(k).getText().replaceAll("'"," ");
                 ram();
             }
@@ -125,7 +128,9 @@ public class Reebelo {
             ramList = driver.findElements(By.xpath(locator.getProperty("rampAvailable")));
             String strRam = ramList.get(l).getAttribute("outerHTML");
             if (!strRam.contains("border-dashed border-1")) {
-                ramList.get(l).click();
+                Actions act=new Actions(driver);
+                act.moveToElement(ramList.get(l)).click().perform();
+//                ramList.get(l).click();
                 tempRam = ramList.get(l).getText();
                 price();
             }
@@ -140,7 +145,9 @@ public class Reebelo {
         for (int m = 0; m < totalPrice; m++) {
             priceList = driver.findElements(By.xpath(locator.getProperty("priceAvailable")));
             String strPrice = priceList.get(m).getAttribute("outerHTML");
-            if (!strPrice.contains("border-dashed border-1")) {
+            if (!strPrice.contains("border-dashed") && !strPrice.contains("text-gray-700/50")) {
+                Actions act=new Actions(driver);
+                act.moveToElement(priceList.get(m)).click().perform();
                 priceList.get(m).click();
                 String op = priceList.get(m).getText().trim().replace("\n", " ");
                 int ind = op.indexOf(" ");
@@ -159,9 +166,18 @@ public class Reebelo {
         System.out.println(" Total Data Fetched: " + Sno);
         bw = new BufferedWriter(new FileWriter("src/main/java/Excel/Reebelo.csv", true));
         bw.newLine();
-        bw.write(Sno + "," + tempLaptop + "," + tempProductDesc + "," + tempStorage + "," + tempColor + "," + tempCpu + "," + tempRam + "," +tempCondition+","+tempPrice);
+        bw.write(Sno + "," +
+                "\"" + tempLaptop.replaceAll("[\\r\\n]+", " ") + "\"," +
+                "\"" + tempProductDesc.replaceAll("[\\r\\n]+", " ") + "\"," +
+                "\"" + tempStorage.replaceAll("[\\r\\n]+", " ") + "\"," +
+                "\"" + tempColor.replaceAll("[\\r\\n]+", " ") + "\"," +
+                "\"" + tempCpu.replaceAll("[\\r\\n]+", " ") + "\"," +
+                "\"" + tempRam + "\"," +
+                "\"" + tempCondition + "\"," +
+                "\"" + tempPrice + "\"");
+
         bw.close();
-        System.out.println("Description: "+tempProductDesc+"\nLaptop-" + tempLaptop + "\n--Storage - " + tempStorage + "--" + tempColor + "\n--CPU - " + tempCpu + "--RAM - " + tempRam + "--Price - " + countPrice + ": " + tempPrice + " " + tempCondition);
+        System.out.println("Description: "+tempProductDesc.replaceAll("[\\r\\n]+", " ")+"\nLaptop-" + tempLaptop.replaceAll("[\\r\\n]+", " ") + "\n--Storage - " + tempStorage.replaceAll("[\\r\\n]+", " ") + "--" + tempColor + "\n--CPU - " + tempCpu + "--RAM - " + tempRam + "--Price - " + countPrice + ": " + tempPrice + " " + tempCondition);
         System.out.println("========================" + "Laptop Count: " + laptopSearched + " out of: " + totalLaptop + "========================================");
 
     }
