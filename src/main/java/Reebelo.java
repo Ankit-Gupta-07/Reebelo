@@ -20,18 +20,18 @@ import java.util.Properties;
 public class Reebelo {
     public static WebDriver driver;
     public static Properties locator;
-    public static List<WebElement> allLaptopName, storageList, ramList, cpuList, priceList, colorList,laptopBrands;
+    public static List<WebElement> allLaptopName, storageList, ramList, cpuList, priceList, colorList;
     public static int totalLaptop, totalStorage, totalCpu, totalRam, totalPrice, totalColor, Sno = 0, countPrice = 0, laptopSearched = 0;
-    public static String tempStorage, tempColor, tempCpu, tempRam, tempPrice, tempLaptop, tempCondition,tempProductDesc,tempLaptopBrandName,brand;
+    public static String tempStorage, tempColor, tempCpu, tempRam, tempPrice, tempLaptop, tempCondition,tempProductDesc;
     public static BufferedWriter bw;
 
 
     public static void main(String[] args) throws IOException, InterruptedException {
         launchReebeloTillAppleProduct();
         bw = new BufferedWriter(new FileWriter("src/main/java/Excel/Reebelo.csv"));
-        bw.write("SNO,Brand,Product Name,Product Description,Storage,Color,Processor,RAM,Condition,Price");
+        bw.write("SNO,Product Name,Product Description,Storage,Color,Processor,RAM,Condition,Price");
         bw.close();
-        allBrandsLoop();
+        productLaptop();
     }
 
     public static void launchReebeloTillAppleProduct() throws IOException {
@@ -47,25 +47,15 @@ public class Reebelo {
         driver.findElements(By.xpath(locator.getProperty("WelcomePopUp"))).get(2).click();
         driver.findElement(By.xpath(locator.getProperty("laptops"))).click();
 //        Put Apple filter
-        //get all Laptop brands
-        laptopBrands=new ArrayList<>();
-        laptopBrands=driver.findElements(By.xpath(locator.getProperty("allLaptopBrandName")));
-    }
-    public static void allBrandsLoop() throws IOException, InterruptedException {
-        for(int i=0;i<laptopBrands.size();i++){
-            laptopBrands=driver.findElements(By.xpath(locator.getProperty("allLaptopBrandName")));
-            brand=laptopBrands.get(i).getText().trim();
-            tempLaptopBrandName=".//button[text()=\""+brand+"\"]";
-            driver.findElement(By.xpath(tempLaptopBrandName)).click();
-            productLaptop();
-        }
+        driver.findElement(By.xpath(locator.getProperty("appleFilter"))).click();
+
     }
 
     public static void productLaptop() throws InterruptedException, IOException {
         allLaptopName = new ArrayList<>();
         allLaptopName = driver.findElements(By.xpath(locator.getProperty("allLaptop")));
         totalLaptop = allLaptopName.size();
-        for (int i = 45; i < totalLaptop; i++) {
+        for (int i = 0; i < totalLaptop; i++) {
             allLaptopName = driver.findElements(By.xpath(locator.getProperty("allLaptop")));
             tempLaptop = allLaptopName.get(i).getText();
             allLaptopName.get(i).click();
@@ -91,8 +81,8 @@ public class Reebelo {
         WebDriverWait exWait=new WebDriverWait(driver,Duration.ofSeconds(15));
         exWait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(locator.getProperty("laptops")))));
         driver.findElement(By.xpath(locator.getProperty("laptops"))).click();
-//        Put current brand filter
-        driver.findElement(By.xpath(tempLaptopBrandName)).click();
+//        Put Apple filter
+        driver.findElement(By.xpath(locator.getProperty("appleFilter"))).click();
     }
 
     public static void color() throws InterruptedException, IOException {
@@ -177,7 +167,6 @@ public class Reebelo {
         bw = new BufferedWriter(new FileWriter("src/main/java/Excel/Reebelo.csv", true));
         bw.newLine();
         bw.write(Sno + "," +
-                "\"" + brand + "\"," +
                 "\"" + tempLaptop.replaceAll("[\\r\\n]+", " ") + "\"," +
                 "\"" + tempProductDesc.replaceAll("[\\r\\n]+", " ") + "\"," +
                 "\"" + tempStorage.replaceAll("[\\r\\n]+", " ") + "\"," +
@@ -189,7 +178,7 @@ public class Reebelo {
 
         bw.close();
         System.out.println("Description: "+tempProductDesc.replaceAll("[\\r\\n]+", " ")+"\nLaptop-" + tempLaptop.replaceAll("[\\r\\n]+", " ") + "\n--Storage - " + tempStorage.replaceAll("[\\r\\n]+", " ") + "--" + tempColor + "\n--CPU - " + tempCpu + "--RAM - " + tempRam + "--Price - " + countPrice + ": " + tempPrice + " " + tempCondition);
-        System.out.println("========================Brand: "+tempLaptopBrandName + "Laptop Count: " + laptopSearched + " out of: " + totalLaptop + "========================================");
+        System.out.println("========================" + "Laptop Count: " + laptopSearched + " out of: " + totalLaptop + "========================================");
 
     }
 }
